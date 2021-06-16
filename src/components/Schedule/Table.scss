@@ -1,0 +1,74 @@
+#lecturer-table-container {
+    font-family: sans-serif;
+    font-weight: 100;
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(45deg, #49a09d, #5f2c82);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    .container {
+        width: 90%;
+        transform: translate(0%, 0%);
+        table {
+            tbody {
+                display: block;
+                overflow-x: hidden;
+                overflow-y: scroll;
+            }
+            
+            .tbody::-webkit-scrollbar { width: 0 !important }
+            .tbody { overflow: -moz-scrollbars-none; }
+            .tbody { -ms-overflow-style: none; }
+
+            td {
+                max-width: 30px;
+                font-size: 12px;
+            }
+            tr {
+                height: 30px;
+                display:table;
+                width:100%;
+                table-layout:fixed;
+            }
+            width: 100%;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            th,
+            td {
+                padding: 15px;
+                background-color: rgba(255, 255, 255, 0.2);
+                color: #fff;
+            }
+            thead {
+                th {
+                    background-color: #55608f;
+                    font-size: 15px;
+                }
+            }
+
+            td,
+            th {
+                position: relative;
+            }
+
+            overflow: hidden;
+
+            tr:hover {
+                background-color: rgba(255, 255, 255, 0.3);
+            }
+
+            td:hover::after,
+            th:hover::after {
+                content: "";
+                position: absolute;
+                background-color: rgba(255, 255, 255, 0.2);
+                left: 0;
+                top: -10000px;
+                height: 10000px;
+                width: 100%;
+                z-index: -1;
+            }
+        }
+    }
+}
