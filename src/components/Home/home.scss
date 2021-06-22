@@ -1,0 +1,116 @@
+
+#home-component {
+  $bg-color: #E6E5E1;
+  $shdow-gray: #d3d3d5;
+  $orange: #DA4D1D;
+  $blue: #2b26c3;
+  $img-url2: './lecturer2.jpeg';
+  $img-url: './student2.jpg';
+
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background: 
+  url('https://www.airport-technology.com/wp-content/uploads/sites/14/2020/02/3d-ai-artificial-intelligence-artwork-1166602.jpg')
+  no-repeat;
+  background-size: cover;
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  i {
+    opacity: 0;
+    font-size: 18px;
+    color: #fff;
+    will-change: transform;
+    -webkit-transform: scale(0.1);
+    transform: scale(0.1);
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  
+  h2{
+    pointer-events:none;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    .card {
+      background-image: url($img-url);
+      background-size: cover;
+      background-position: center center;
+      position: relative;
+      width: 50vw;
+      height: 35vh;
+      background-color: #fff;
+      overflow: hidden;
+      margin-bottom: 4px;
+      filter: grayscale(0.4);
+      transition: all 0.6s ease-in-out;
+      h2 {
+        z-index: 99;
+        font-family: "Poppins", sans-serif;
+        position: absolute;
+        bottom: 0;
+        right: 130px;
+        font-size: 60px;
+        font-weight: 700;
+        color: #ffffff;
+      }
+  
+      .fa-arrow-right {
+        z-index: 100;
+        position: absolute;
+        right: 75px;
+        bottom: 10px;
+        font-size: 40px;
+        cursor: pointer;
+      }
+  
+      button {
+        position: absolute;
+        right: 14px;
+        bottom: 14px;
+        width: 20px;
+        height: 20px;
+        background-color: $orange;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        outline:none;
+        transition: all 0.6s ease-in-out;
+        mix-blend-mode: hard-light;
+      }
+
+      &:hover {
+        width: 55vw;
+        height: 42vh;
+        filter: grayscale(0);
+      }
+
+      &:hover button {  
+        transform: scale(25.5);
+      }
+  
+      &:hover p {
+        color: #fff;
+      }
+      
+    }
+    
+    .card2 {
+      background-image: url($img-url2);
+      button {
+        background-color: $blue;
+      }
+    }
+  }
+}
+
