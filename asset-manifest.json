@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/DatabaseProject/static/css/main.01586cb4.chunk.css",
+    "main.js": "/DatabaseProject/static/js/main.25c8dc58.chunk.js",
+    "main.js.map": "/DatabaseProject/static/js/main.25c8dc58.chunk.js.map",
+    "runtime-main.js": "/DatabaseProject/static/js/runtime-main.4c1c6bfe.js",
+    "runtime-main.js.map": "/DatabaseProject/static/js/runtime-main.4c1c6bfe.js.map",
+    "static/js/2.f30f3a61.chunk.js": "/DatabaseProject/static/js/2.f30f3a61.chunk.js",
+    "static/js/2.f30f3a61.chunk.js.map": "/DatabaseProject/static/js/2.f30f3a61.chunk.js.map",
+    "index.html": "/DatabaseProject/index.html",
+    "precache-manifest.c350fa94c8f66e671cbb765aac1bbcb3.js": "/DatabaseProject/precache-manifest.c350fa94c8f66e671cbb765aac1bbcb3.js",
+    "service-worker.js": "/DatabaseProject/service-worker.js",
+    "static/css/main.01586cb4.chunk.css.map": "/DatabaseProject/static/css/main.01586cb4.chunk.css.map",
+    "static/js/2.f30f3a61.chunk.js.LICENSE.txt": "/DatabaseProject/static/js/2.f30f3a61.chunk.js.LICENSE.txt",
+    "static/media/HomeStudent.scss": "/DatabaseProject/static/media/study_b.cb8f7ce1.jpg",
+    "static/media/home.scss": "/DatabaseProject/static/media/student2.bfed14ff.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4c1c6bfe.js",
+    "static/js/2.f30f3a61.chunk.js",
+    "static/css/main.01586cb4.chunk.css",
+    "static/js/main.25c8dc58.chunk.js"
+  ]
+}
